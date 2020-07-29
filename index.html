@@ -12,6 +12,12 @@
 		<p>
 			We'll write some extra paragraph content here.
 		</p>
+
+		<script>
+			fetch('/api/Helloworld')
+				.then(response => response.text())
+				.then(data => console.log(data));
+		</script>
 	</body>
 </html>
 
